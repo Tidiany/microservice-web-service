@@ -1,0 +1,19 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://ws.groupeisi.com"
+            elementFormDefault="qualified">
+    <xsd:element name="getInfoRequest">
+        <xsd:complexType>
+            <xsd:sequence name="name"   type="xsd:string">
+                <xsd:element name="input" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="getInfoResponse">
+        <xsd:complexType>
+            <xsd:sequence name="name"   type="xsd:string">
+                <xsd:element name="output" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

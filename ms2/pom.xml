@@ -878,6 +878,16 @@
                     <groupId>com.h2database</groupId>
                     <artifactId>h2</artifactId>
                 </dependency>
+                <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web-services -->
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web-services</artifactId>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/wsdl4j/wsdl4j -->
+                <dependency>
+                    <groupId>wsdl4j</groupId>
+                    <artifactId>wsdl4j</artifactId>
+                </dependency>
             </dependencies>
             <build>
                 <plugins>
