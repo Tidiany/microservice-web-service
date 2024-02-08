@@ -1,5 +1,7 @@
 package com.groupeisi.service.dto;
 
+import com.groupeisi.domain.Etudiant;
+
 public class EtudiantDTO {
     private Long id;
     private String nom;
@@ -12,6 +14,12 @@ public class EtudiantDTO {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
+    }
+
+    public EtudiantDTO(Etudiant etudiant) {
+        this.id = etudiant.getId();
+        this.nom = etudiant.getNom();
+        this.prenom = etudiant.getPrenom();
     }
 
     public Long getId() {
